@@ -15,7 +15,7 @@ Question  | Signal | Impact
 -- | ------ | -------
 What is it? | Average [reputation](/hackers/reputation.html) per report. As reputation is gained or lost each time a report is closed, Signal is an aggregate representation of report validity. It corresponds to reputation changes for triage states ranging from "Spam" to "Resolved." <br><br>Your signal from the last 365 days affects your [signal requirements](/hackers/restricted-from-submissions.html#signal-requirements) for a program.  | Average reputation per bounty. As reputation is gained based on the relative size of the awarded bounty, Impact is an aggregate representation of report severity. It corresponds to reputation gains calculated by bounty levels awarded.
 What's the measured scale? | -10 to 7 | 0 to 50
-Are there any caveats to calculations? | Only calculated when there are more than 3 closed reports.<br><br>These reports won't affect your Signal:<li>Self-closed <li>Duplicate <li>Informative | Only calculated when there are more than 3 bounties, and is only calculated for reports submitted to programs that offer bounties.<br><br>These reports won't affect your Impact: <li>Self-closed <li>Duplicate
+Are there any caveats to calculations? | Only calculated when there are more than 3 closed reports.<br><br>These reports won't affect your Signal:<li>Self-closed <li>Duplicate <li>Informative | Only calculated when there are more than 3 bounties, and is only calculated for reports submitted to programs that offer bounties.<br><br>These reports won't affect your Impact: <li>Self-closed <li>Duplicate <li>Informative
 
 ### Calculation Example
 ![signal and impact calculation](./images/rep_signal_impact_chart.png)
